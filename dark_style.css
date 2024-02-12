@@ -1,2 +1,4 @@
-body.dark { background-color: #0c1319 !important; }
-.wrapper.dark { background-color: #0b191c !important; }
+body.dark { background-color: #0c1319; }
+.wrapper.dark { background-color: #0b191c; }
+.button.dark { background-color: #0a2520; color: #6e8285; }
+span.p.dark { color: #6e8285; }
