@@ -2,6 +2,7 @@ window.onload = toggleDark;
 
 function toggleDark() {
     var img = document.querySelector("#image02 .frame img");
+    var img2 = document.querySelector("#image03 .frame img");
     var wrapper = document.querySelectorAll(".wrapper");
     var buttons = document.querySelectorAll(".button");
     var text = document.querySelectorAll("span.p");
@@ -22,5 +23,6 @@ function toggleDark() {
             element.classList.add('dark');
         });
         img.src = "/assets/images/image01.gif";
+        img2.src = "/assets/images/image01.gif";
     }
 }
